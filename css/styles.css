@@ -1,3 +1,197 @@
 body {
-  background-color: aquamarine;
+  background-color: #fae98f;
+  color: #40514e;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  color: #810749;
+  font-family: "Rock Salt", cursive;
+  font-size: 4rem;
+  margin: 50px auto 0px auto;
+  z-index: 9;
+}
+
+h2 {
+  color: #810749;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+h3 {
+  color: #f04f4f;
+  font-family: "Roboto Slab", serif;
+  z-index: 9;
+}
+
+a {
+  color: #f04f4f;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+}
+
+.dotted-hr {
+  background-color: transparent;
+  border-color: #faa9df;
+  border-style: dotted none none;
+  border-width: 0.5em;
+  height: 3px;
+  margin: 50px auto;
+  width: 10%;
+}
+
+.solid-hr {
+  background-color: transparent;
+  border-color: #810749;
+  border-style: solid none none;
+  border-width: 1em;
+  width: 100%;
+  margin: 0;
+}
+
+.top-container {
+  background-color: #faa9df;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+  background-color: #faa9df;
+  padding: 10px;
+}
+
+.subtitle {
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 0;
+}
+
+.dev {
+  font-family: "Roboto Slab", serif;
+  text-decoration: underline 2px;
+}
+
+.artist {
+  font-size: 0.75em;
+  font-weight: bold;
+  font-family: "Rock Salt", cursive;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  width: 15%;
+  right: 150px;
+  z-index: 9;
+}
+
+.mountain {
+  position: relative;
+  width: 33%;
+  height: 25%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 10%;
+  left: 150px;
+  bottom: 200px;
+  z-index: 9;
+}
+
+.profile {
+  padding: 50px 50px 0px;
+  display: inline-block;
+  text-align: center;
+  line-height: 2;
+  width: 50%;
+}
+
+.profile-img {
+  width: 33%;
+}
+
+.skills {
+}
+
+.skill-row {
+  line-height: 2;
+  text-align: left;
+  margin: 100px auto 0px;
+  width: 50%;
+}
+
+.skill-img-left {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-img-right {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.contact-me {
+  width: 60%;
+  margin: 0 auto 25px;
+}
+
+.footer-link {
+  display: inline-block;
+  padding: 0;
+  margin: 15px 5% 0px;
+}
+
+.credits {
+  color: #eaf6f6;
+  font-size: 0.6rem;
+  padding-top: 10px;
+}
+
+.btn {
+  background: #f04f4f;
+  background-image: -webkit-linear-gradient(top, #f04f4f, #810749);
+  background-image: -moz-linear-gradient(top, #f04f4f, #810749);
+  background-image: -ms-linear-gradient(top, #f04f4f, #810749);
+  background-image: -o-linear-gradient(top, #f04f4f, #810749);
+  background-image: -webkit-gradient(to bottom, #f04f4f, #810749);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #eaf6f6;
+  font-family: "Rock Salt", cursive;
+  font-size: 0.75rem;
+  font-weight: normal;
+  padding: 0.5rem;
+  margin: 25px auto;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #000000 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #ffffff 1px;
+  background: #faa9df;
+  background-image: -webkit-linear-gradient(top, #faa9df, #f04f4f);
+  background-image: -moz-linear-gradient(top, #faa9df, #f04f4f);
+  background-image: -ms-linear-gradient(top, #faa9df, #f04f4f);
+  background-image: -o-linear-gradient(top, #faa9df, #f04f4f);
+  background-image: -webkit-gradient(to bottom, #faa9df, #f04f4f);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
 }
